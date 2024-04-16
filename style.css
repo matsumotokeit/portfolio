@@ -227,7 +227,7 @@ button:hover{
 .box{
     display: flex;
     align-items: center;
-    justify-content:center;
+/*     justify-content:center; */
     min-height: 400px;
 }
 
@@ -241,6 +241,10 @@ button:hover{
     overflow: hidden;
     position: relative;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 }
 
 .card i{
@@ -262,6 +266,7 @@ h5{
     margin-bottom: 30px;
 } 
 
+
 .card .button {
     background-color: lightseagreen;
     padding: 13px 30px;
@@ -270,8 +275,7 @@ h5{
     border-radius: 50px;
     transition: all 0.3s;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1;
 }
 
 
