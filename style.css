@@ -104,9 +104,8 @@ padding-top: 230px;
 }
 
 .content .body img{
-   width: 1080px;
-   height: 720px;
-   margin-top: -150px;
+   width: 700px;
+   height: 400px;
    margin-left: 50px;
 }
 
@@ -170,7 +169,7 @@ h4{
 }
 
 .main{
-    width: 1600px;
+    width: 1000px;
     display: flex;
     margin: 0 auto;
     align-items:center;
@@ -233,7 +232,7 @@ button:hover{
 }
 
 .card{
-    height: 420px;
+    height: 520px;
     width: 365px;
     background-color: #191919;
     padding:20px 35px;
@@ -271,7 +270,10 @@ h5{
     border-radius: 50px;
     transition: all 0.3s;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .card .button:hover {
     background-color: transparent;
